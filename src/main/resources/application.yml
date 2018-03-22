@@ -1,0 +1,19 @@
+server:
+  port: 8085
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1/dbgirl
+    username: root
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
+girl:
+  cupSize: B
+  age: 18
+
+
